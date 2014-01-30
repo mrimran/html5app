@@ -214,3 +214,17 @@ textarea[contenteditable] {
        only screen and (min-resolution: 144dpi) {
     /* Style adjustments for viewports that meet the condition */
 }
+
+/** Custom classes **/
+body{
+	background-image: url("../img/background2.png");
+	color: white;
+	text-align: center;
+}
+.author{
+	color: orange;
+	font-weight: bold;
+}
+.author a{
+	color: lightgreen;
+}
