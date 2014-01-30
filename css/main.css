@@ -228,3 +228,27 @@ body{
 .author a{
 	color: lightgreen;
 }
+
+/* For desktop */
+@media (min-width: 768px) {
+  video {
+	width: 640px !important;
+	height: 464px !important;
+  }
+}
+
+/* For mobile */
+@media (max-width: 767px) and (min-width: 721px) {
+  video {
+	width: 390px !important;
+	height: 378px !important;
+  }
+}
+
+/* For mobile */
+@media (max-width: 720px) {
+  video {
+	width: 360px !important;
+	height: 238px !important;
+  }
+}
